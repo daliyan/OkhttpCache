@@ -5,8 +5,8 @@
 
  解析知乎专栏API，读取专栏数据
  
- ![Demo](https://github.com/daliyan/OkhttpCache/pic/S61018-224906.jpg)
- ![Demo](https://github.com/daliyan/OkhttpCache/pic/S61018-224921.jpg)
+ ![Demo](https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224906.jpg)
+ ![Demo](https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224921.jpg)
  
 ## 使用方法
 参考：
