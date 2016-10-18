@@ -5,8 +5,9 @@
 
  解析知乎专栏API，读取专栏数据
  
- ![Demo](https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224906.jpg){: width="540px" height="960px"}
- ![Demo](https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224921.jpg){: width="540px" height="960px"}
+ <img src="https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224906.jpg" width = "405" height = "720"/>
+ <img src="https://github.com/daliyan/OkhttpCache/blob/master/pic/S61018-224921.jpg" width = "405" height = "720"/>
+
  
 ## 使用方法
 参考：
