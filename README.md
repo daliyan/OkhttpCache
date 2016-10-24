@@ -11,7 +11,7 @@
  
 ## 使用方法
 参考：
-[使用例子MainActivity](https://github.com/daliyan/OkhttpCache/blob/master/app/src/main/java/akiyama/okhttpcache/MainActivity.java)
+[使用例子MainActivity](https://github.com/daliyan/OkhttpCache/blob/master/sample/src/main/java/akiyama/okhttpcache/MainActivity.java)
 
 ```java
 
