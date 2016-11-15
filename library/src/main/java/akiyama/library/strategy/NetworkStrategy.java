@@ -30,7 +30,7 @@ public class NetworkStrategy implements BaseRequestStrategy {
     public Response request(Interceptor.Chain chain) throws IOException {
         Request request = chain.request();
         Response response = chain.proceed(request);
-        response.newBuilder()
+        response = response.newBuilder()
                 .addHeader("Cache-Control", "public, max-age=" + mMaxAge)
                 .removeHeader("Pragma")
                 .build();
