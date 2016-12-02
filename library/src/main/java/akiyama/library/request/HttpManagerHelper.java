@@ -30,10 +30,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * 使用Okhttp实现网络层访问
- * Created by wenhao on 16-1-28.
- */
+
 public class HttpManagerHelper implements IGetRequest{
     public static final String REQUEST_CACHE_TYPE_HEAD = "requestCacheType";//请求缓存类型
     private static final HttpManagerHelper INSTANCE = new HttpManagerHelper();
