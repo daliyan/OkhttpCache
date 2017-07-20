@@ -37,7 +37,7 @@ public class CacheStrategy implements BaseRequestStrategy {
         Request request = chain.request();
         request = request.newBuilder().cacheControl(CacheControl.FORCE_CACHE).build();//没有网络，直接读取缓存
         Response response = chain.proceed(request);
-        response.newBuilder()// only-if-cached完全使用缓存，如果命中失败，则返回503错误
+        response = response.newBuilder()// only-if-cached完全使用缓存，如果命中失败，则返回503错误
                 .header("Cache-Control", "public, only-if-cached, max-stale=" + mMaxStale)
                 .removeHeader("Pragma")
                 .build();
